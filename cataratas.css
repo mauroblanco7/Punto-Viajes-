@@ -1,0 +1,142 @@
+@import 'estilosnd.css';
+
+.info{
+    position: relative;
+    top: 100px;
+    margin-bottom: 200px;
+    
+}
+.info2{
+    float: left;
+    width: 60%;
+    margin: 20px;
+   
+}
+.info2 h2 {
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 70px;
+    color: #2A2C41;
+    
+}
+.info2 img {
+    width: 100%;
+    height: 450px;
+    border-radius: 7px;
+    padding-bottom: 10px;
+}
+.info2-text{
+    line-height: 40px;
+    font-weight:500;
+    font-size: 20px;
+}
+.info-responsive{
+    display: none;
+}
+.lateral {
+    float: right;
+    padding: 20px;
+    width: 30%;
+    margin-top: 100px;
+    background-color: #e0e0e1;
+    border-radius: 5px;
+    box-shadow: -9px 9px 20px -8px rgba(71,70,145,0.75);
+    margin-right: 10px;
+}
+.lateral h3 {
+    color: #2A2C41;
+}
+.lateral h5 {
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fa-circle {
+    font-size: 8px;
+    color: #e53131;
+}
+.fa-star {
+    font-size: 10px;
+}
+
+.lateral h4{
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 200;
+}
+.lateral h6 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #e53131;
+}
+.precio span {
+    font-size: 15px;
+}
+.lateral p {
+    margin-top: 15px;
+    font-weight: 550;
+}
+
+
+
+.btn-reserva {
+    background-color: #25D366;
+    display: inline;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 1.2em;
+}
+.btn-reserva:hover{
+   background-color: #1ca54e;
+}
+.btn-reserva a {
+    color: bisque;
+}
+.btn-reserva i:hover{
+    color: whitesmoke ;
+}
+
+@media screen and (max-width: 900px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .info2{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .info2 img{
+        margin-top: 50px;
+    }
+    .info-responsive {
+        display: inline;
+        background-color: #e53131;
+        border-radius: 3px;
+        padding: 2px;
+        
+        
+    }
+    .info-responsive:hover{
+        background-color: #d12727;
+    }
+    .info-responsive a{
+        color: whitesmoke;
+        font-size: 15px;
+    }
+    .lateral{
+        width: 90%;
+        margin: 40px auto;
+        padding-top: 30px;
+    }
+
+}
+@media screen and (max-width: 550px) {
+    .info2 img{
+        height: 300px;
+    }
+}
